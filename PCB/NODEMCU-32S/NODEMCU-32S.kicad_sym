@@ -1,0 +1,359 @@
+
+(kicad_symbol_lib (version 20211014) (generator kicad_symbol_editor)
+  (symbol "NODEMCU-32S" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
+    (property "Reference" "U" (id 0) (at -12.7 33.782 0)
+      (effects (font (size 1.27 1.27)) (justify bottom left))
+    )
+    (property "Value" "NODEMCU-32S" (id 1) (at -12.7 -35.56 0)
+      (effects (font (size 1.27 1.27)) (justify bottom left))
+    )
+    (property "Footprint" "NODEMCU-32S:MODULE_NODEMCU-32S" (id 2) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "MF" "AI-Thinker" (id 4) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "MAXIMUM_PACKAGE_HEIGHT" "3.00mm" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "Package" "Package" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "Price" "None" (id 7) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "Check_prices" "https://www.snapeda.com/parts/NODEMCU-32S/AI-Thinker/view-part/?ref=eda" (id 8) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "STANDARD" "Manufacturer Recommendations" (id 9) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "PARTREV" "V1" (id 10) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "SnapEDA_Link" "https://www.snapeda.com/parts/NODEMCU-32S/AI-Thinker/view-part/?ref=snap" (id 11) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "MP" "NODEMCU-32S" (id 12) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "Description" "\nWIFI MODULE V1\n" (id 13) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "Availability" "Not in stock" (id 14) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "MANUFACTURER" "AI-Thinker" (id 15) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (symbol "NODEMCU-32S_0_0"
+      (rectangle (start -12.7 -33.02) (end 12.7 33.02)
+        (stroke (width 0.254)) (fill (type background))
+      )
+      (pin power_in line (at 17.78 27.94 180.0) (length 5.08)
+        (name "3.3V"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "J1_1"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin input line (at -17.78 22.86 0) (length 5.08)
+        (name "EN"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "J1_2"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin input line (at -17.78 12.7 0) (length 5.08)
+        (name "IO36"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "J1_3"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin input line (at -17.78 10.16 0) (length 5.08)
+        (name "IO39"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "J1_4"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin input line (at -17.78 17.78 0) (length 5.08)
+        (name "IO34"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "J1_5"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin input line (at -17.78 15.24 0) (length 5.08)
+        (name "IO35"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "J1_6"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at 17.78 -22.86 180.0) (length 5.08)
+        (name "IO32"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "J1_7"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at 17.78 -25.4 180.0) (length 5.08)
+        (name "IO33"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "J1_8"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at 17.78 -15.24 180.0) (length 5.08)
+        (name "IO25"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "J1_9"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at 17.78 -17.78 180.0) (length 5.08)
+        (name "IO26"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "J1_10"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at 17.78 -20.32 180.0) (length 5.08)
+        (name "IO27"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "J1_11"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at 17.78 7.62 180.0) (length 5.08)
+        (name "IO14"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "J1_12"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 17.78 -30.48 180.0) (length 5.08)
+        (name "GND"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "J1_14"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 17.78 -30.48 180.0) (length 5.08)
+        (name "GND"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "J2_1"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 17.78 -30.48 180.0) (length 5.08)
+        (name "GND"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "J2_7"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at 17.78 10.16 180.0) (length 5.08)
+        (name "IO13"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "J1_15"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin no_connect line (at -17.78 -15.24 0) (length 5.08)
+        (name "IO9"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "J1_16"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin no_connect line (at -17.78 -17.78 0) (length 5.08)
+        (name "IO10"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "J1_17"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin no_connect line (at -17.78 -20.32 0) (length 5.08)
+        (name "IO11"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "J1_18"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 17.78 30.48 180.0) (length 5.08)
+        (name "5V"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "J1_19"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at 17.78 -12.7 180.0) (length 5.08)
+        (name "IO23"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "J2_2"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at 17.78 -10.16 180.0) (length 5.08)
+        (name "IO22"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "J2_3"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -17.78 2.54 0) (length 5.08)
+        (name "TX0"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "J2_4"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -17.78 0.0 0) (length 5.08)
+        (name "RX0"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "J2_5"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at 17.78 -7.62 180.0) (length 5.08)
+        (name "IO21"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "J2_6"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at 17.78 -5.08 180.0) (length 5.08)
+        (name "IO19"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "J2_8"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at 17.78 -2.54 180.0) (length 5.08)
+        (name "IO18"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "J2_9"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at 17.78 15.24 180.0) (length 5.08)
+        (name "IO5"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "J2_10"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at 17.78 0.0 180.0) (length 5.08)
+        (name "IO17"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "J2_11"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at 17.78 2.54 180.0) (length 5.08)
+        (name "IO16"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "J2_12"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at 17.78 17.78 180.0) (length 5.08)
+        (name "IO4"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "J2_13"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at 17.78 22.86 180.0) (length 5.08)
+        (name "IO0"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "J2_14"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at 17.78 20.32 180.0) (length 5.08)
+        (name "IO2"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "J2_15"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at 17.78 5.08 180.0) (length 5.08)
+        (name "IO15"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "J2_16"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin no_connect line (at -17.78 -12.7 0) (length 5.08)
+        (name "IO8"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "J2_17"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin no_connect line (at -17.78 -10.16 0) (length 5.08)
+        (name "IO7"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "J2_18"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin no_connect line (at -17.78 -7.62 0) (length 5.08)
+        (name "IO6"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "J2_19"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at 17.78 12.7 180.0) (length 5.08)
+        (name "IO12"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "J1_13"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+    )
+  )
+)

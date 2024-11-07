@@ -1,0 +1,1 @@
+# ESP-32 Plant Sensor for ESP-Home and HomeAssistant

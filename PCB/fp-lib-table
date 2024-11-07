@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "Library")(type "KiCad")(uri "${KIPRJMOD}/NODEMCU-32S/Library.pretty")(options "")(descr ""))
+)

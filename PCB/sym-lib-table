@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "NODEMCU-32S")(type "KiCad")(uri "${KIPRJMOD}/NODEMCU-32S/NODEMCU-32S.kicad_sym")(options "")(descr ""))
+)
