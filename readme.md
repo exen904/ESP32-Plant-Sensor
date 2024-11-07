@@ -17,3 +17,5 @@ I run these with ESPHome, see my code in the code folder. Calibrate the values u
 For the HomeAssistant side of things, I created a configuration.yaml entry, which ties each sensor to a plant entity. Example also linked in the code folder. Please do yourself a favour, and name your sensors in ESPHome better than I did.
 
 ## Pictures
+![PCB render](https://github.com/exen904/ESP32-Plant-Sensor/blob/master/Pictures/ESP%20Plants.png)
+![soldered PCB](https://github.com/exen904/ESP32-Plant-Sensor/blob/master/Pictures/plant4.jpg)
