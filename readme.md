@@ -12,6 +12,7 @@ Please refer to my KiCad Footprint of the ESP I used for the pinout, as there ar
 ## BOM
 - 1x ESP32 Devkit with the correct pinout
 - 6x JST B3B-XH-A (2.0mm vertical) connectors
+- 4x M2x4 screws for securing the PCB in the bottom case
 
 ## Software
 I run these with ESPHome, see my code in the code folder. Calibrate the values under `calibrate_linear` for each state of sensor dry and sensor 100% (sensor partly emerged underwater).
