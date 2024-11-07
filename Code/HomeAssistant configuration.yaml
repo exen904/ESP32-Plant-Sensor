@@ -1,0 +1,30 @@
+# Example configuration.yaml entry
+Plant1:
+  sensors:
+    moisture: sensor.sensor_1
+  min_moisture: 20
+
+Plant2:
+  sensors:
+    moisture: sensor.sensor_2
+  min_moisture: 20
+
+Plant3:
+  sensors:
+    moisture: sensor.sensor_3
+  min_moisture: 20
+
+Plant4:
+  sensors:
+    moisture: sensor.sensor_4
+  min_moisture: 20
+
+Plant5:
+  sensors:
+    moisture: sensor.sensor_5
+  min_moisture: 20
+
+Plant6:
+  sensors:
+    moisture: sensor.sensor_6
+  min_moisture: 20

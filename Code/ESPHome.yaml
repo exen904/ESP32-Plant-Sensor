@@ -1,0 +1,113 @@
+# your regular ESPHome configuration gets here, stuff for the sensors follows
+
+sensor:
+#Sensor 1
+  - platform: adc
+    attenuation: auto
+    pin: GPIO036
+    name: "Sensor 1"
+    update_interval: 120s
+    unit_of_measurement: "%"
+    filters:
+    - median:
+        window_size: 7
+        send_every: 4
+        send_first_at: 1
+    - calibrate_linear:
+        - 2.3 -> 0.00
+        - 0.9 -> 100.00
+    - lambda: if (x < 1) return 0; else return (x);
+    accuracy_decimals: 0 
+
+
+#Sensor 2    
+  - platform: adc
+    attenuation: auto
+    pin: GPIO39
+    name: "Sensor 2"
+    update_interval: 120s
+    unit_of_measurement: "%"
+    filters:
+    - median:
+        window_size: 7
+        send_every: 4
+        send_first_at: 1
+    - calibrate_linear:
+        - 2.3 -> 0.00
+        - 0.9 -> 100.00
+    - lambda: if (x < 1) return 0; else return (x);
+    accuracy_decimals: 0 
+
+
+#Sensor 3    
+  - platform: adc
+    attenuation: auto
+    pin: GPIO34
+    name: "Sensor 3"
+    update_interval: 120s
+    unit_of_measurement: "%"
+    filters:
+    - median:
+        window_size: 7
+        send_every: 4
+        send_first_at: 1
+    - calibrate_linear:
+        - 2.4 -> 0.00
+        - 0.9 -> 100.00
+    - lambda: if (x < 1) return 0; else return (x);
+    accuracy_decimals: 0   
+ 
+
+#Sensor 4    
+  - platform: adc
+    attenuation: auto
+    pin: GPIO35
+    name: "Sensor 4"
+    update_interval: 120s
+    unit_of_measurement: "%"
+    filters:
+    - median:
+        window_size: 7
+        send_every: 4
+        send_first_at: 1
+    - calibrate_linear:
+        - 2.4 -> 0.00
+        - 0.9 -> 100.00
+    - lambda: if (x < 1) return 0; else return (x);
+    accuracy_decimals: 0   
+
+#Sensor 5    
+  - platform: adc
+    attenuation: auto
+    pin: GPIO32
+    name: "Sensor 5"
+    update_interval: 120s
+    unit_of_measurement: "%"
+    filters:
+    - median:
+        window_size: 7
+        send_every: 4
+        send_first_at: 1
+    - calibrate_linear:
+        - 2.4 -> 0.00
+        - 0.9 -> 100.00
+    - lambda: if (x < 1) return 0; else return (x);
+    accuracy_decimals: 0   
+
+    #Sensor 6    
+  - platform: adc
+    attenuation: auto
+    pin: GPIO33
+    name: "Sensor 6"
+    update_interval: 120s
+    unit_of_measurement: "%"
+    filters:
+    - median:
+        window_size: 7
+        send_every: 4
+        send_first_at: 1
+    - calibrate_linear:
+        - 2.4 -> 0.00
+        - 0.9 -> 100.00
+    - lambda: if (x < 1) return 0; else return (x);
+    accuracy_decimals: 0   
