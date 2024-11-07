@@ -7,6 +7,8 @@ The PCB works with both V1.2 and V2.0 sensors and applys 5V as working voltage t
 ## ESP Pinout
 Please refer to my KiCad Footprint of the ESP I used for the pinout, as there are so many different ESP Devkits available. 
 
+![Pinout](https://github.com/exen904/ESP32-Plant-Sensor/blob/master/Pictures/pinout.png)
+
 ## BOM
 - 1x ESP32 Devkit with the correct pinout
 - 6x JST B3B-XH-A (2.0mm vertical) connectors
