@@ -4,6 +4,9 @@ This is a simple PCB to attach 6 capacitive moisuture sensors to a ESP32 for pla
 
 The PCB works with both V1.2 and V2.0 sensors and applys 5V as working voltage to make it compatible with either one. Connection to the sensors is made via JST 2.0 connectors. 
 
+## Update
+PCB has been updated to accomodate larger tolerances on the ESP footprint THT holes. My first protoytpe showed no errors, but I could confirm, that the tolerances on the THT holes are extremely tight. I adjusted this in the current version, so if you did not order PCBs, please use the current version. If you ordered PCBs from the first revision, you can take a chance at drilling the holes up but I dont really recommend that, as you can also break traces during that. 
+
 ## ESP Pinout
 Please refer to my KiCad Footprint of the ESP I used for the pinout, as there are so many different ESP Devkits available. 
 
