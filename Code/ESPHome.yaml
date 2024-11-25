@@ -6,6 +6,7 @@ sensor:
     attenuation: auto
     pin: GPIO036
     name: "Sensor 1"
+    device_class: moisture
     update_interval: 120s
     unit_of_measurement: "%"
     filters:
@@ -25,6 +26,7 @@ sensor:
     attenuation: auto
     pin: GPIO39
     name: "Sensor 2"
+    device_class: moisture
     update_interval: 120s
     unit_of_measurement: "%"
     filters:
@@ -44,6 +46,7 @@ sensor:
     attenuation: auto
     pin: GPIO34
     name: "Sensor 3"
+    device_class: moisture
     update_interval: 120s
     unit_of_measurement: "%"
     filters:
@@ -63,6 +66,7 @@ sensor:
     attenuation: auto
     pin: GPIO35
     name: "Sensor 4"
+    device_class: moisture
     update_interval: 120s
     unit_of_measurement: "%"
     filters:
@@ -81,6 +85,7 @@ sensor:
     attenuation: auto
     pin: GPIO32
     name: "Sensor 5"
+    device_class: moisture
     update_interval: 120s
     unit_of_measurement: "%"
     filters:
@@ -99,6 +104,7 @@ sensor:
     attenuation: auto
     pin: GPIO33
     name: "Sensor 6"
+    device_class: moisture
     update_interval: 120s
     unit_of_measurement: "%"
     filters:
